@@ -28,16 +28,19 @@ fee calculator(ticket)
 
 Update Log entry by adding Log out time, exit Panel no
 
-
-
 parking floor 
 parking spot
 Display panel
 Enum of vehicle type
+
 Payment interface
+
 Payment modes implementing Payment interface
+
 Fee Calculator inside exit panel
+
 Parking fee Interface
+
 Parking fee methods implementing Parking Interface
-Parking Transactions to log the parking like :
- datetimestamp , vehicle no, ticket no, floor, time in, time out, spot , exitPanel , entryPanel
+
+Parking Transactions to log the parking like : datetimestamp , vehicle no, ticket no, floor, time in, time out, spot , exitPanel , entryPanel
