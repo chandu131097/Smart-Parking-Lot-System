@@ -1,16 +1,9 @@
 public class ParkingSpot {
     private Long id;
-    private boolean isAvailable;
-
-    public ParkingSpot(Long id, boolean isAvailable) {
-        this.id = id;
-        this.isAvailable = isAvailable;
-    }
-    public ParkingSpot() {
-    }
-
     public ParkingSpot(Long id) {
         this.id = id;
+    }
+    public ParkingSpot() {
     }
 
     public Long getId() {
@@ -21,12 +14,8 @@ public class ParkingSpot {
         this.id = id;
     }
 
-    public boolean isAvailable() {
-        return isAvailable;
-    }
-
-    public void setAvailable(boolean available) {
-        isAvailable = available;
+    public void parkVehicle(Vehicle vehicle) {
+        System.out.println("Vehicle parked in parking spot with ID: " + id + " Vehicle ID: " + vehicle.getId());
     }
 
 }
